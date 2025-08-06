@@ -10,7 +10,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING
         },
         duracion: {
-            type: Sequelize.INT
+            type: Sequelize.INTEGER
         },   
         tipo: {
             type: Sequelize.STRING
@@ -19,7 +19,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING
         },
         lanzamiento:{
-            type: Sequelize.INT
+            type: Sequelize.INTEGER
         } 
     });
     return Pelicula;
