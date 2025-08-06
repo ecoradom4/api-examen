@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
 });
 
 // Importar y configurar todas las rutas
-require("./app/routes/cliente.routes")(app);
+require("./app/routes/pelicula.routes")(app);
 
 
 // set port, listen for requests
